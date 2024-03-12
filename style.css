@@ -1,0 +1,97 @@
+.wrapper h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Audiowide;
+    color: blue;
+    background-color: red;
+    text-shadow: 0 0 5px black;
+}
+
+.container{
+    background-color: #d3d3d3;
+    min-height: 100vh;
+    padding: 3rem;
+}
+img{
+    width: 30vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.img-area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+}
+
+.img-area img:nth-child(even):hover{
+    transform: rotate(360deg);
+    transition: all 10s ease-in-out;
+}
+
+
+.img-area img:nth-child(odd):hover{
+    transform: rotate(360deg);
+    transition: all 10s ease-in-out;
+}
+
+.img-area img:nth-child(odd):hover{
+    transform: rotate(360deg);
+    transition: all 10s ease-in-out;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #d3d3d3;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+marquee{
+    font-size: 40px;
+    text-shadow: 0 0 5px red;
+    color: blue;
+    background-color: white;
+}
+
+.search-bar{
+    background-color: white;    
+}
+
+h1{
+    color: blue;
+    text-shadow:0 0 5px red;
+    text-align: center;
+    background-color: lightgray;
+}
+
+div{
+    background-color: darkgray;
+}
+
+input{
+    font-size: 30px;
+    gap: 5px;
+}
+
+.info{
+    color: blue;
+    background-color: white;
+}
+
+#col-xl{
+    text-align: center;
+}
+
